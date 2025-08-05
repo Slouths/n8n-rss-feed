@@ -33,5 +33,11 @@
   <description>Dummy description for test article 4</description>
   <pubDate>Tue, 05 Aug 2025 17:41:49 GMT</pubDate>
 </item>
+<item>
+  <title>Test Article 5</title>
+  <link>https://example.com/test-article-5</link>
+  <description>Dummy description for test article 5</description>
+  <pubDate>Tue, 05 Aug 2025 17:47:57 GMT</pubDate>
+</item>
   </channel>
 </rss>
