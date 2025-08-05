@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Test Feed</title>
+    <link>https://your-test-feed.com</link>
+    <description>Dummy RSS Feed for Workflow Testing</description>
+    <lastBuildDate>Tue, 05 Aug 2025 12:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Test Article 1</title>
+      <link>https://example.com/test-article-1</link>
+      <description>Dummy description for test article 1</description>
+      <pubDate>Tue, 05 Aug 2025 12:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Test Article 2</title>
+      <link>https://example.com/test-article-2</link>
+      <description>Dummy description for test article 2</description>
+      <pubDate>Tue, 05 Aug 2025 12:05:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Test Article 3</title>
+      <link>https://example.com/test-article-3</link>
+      <description>Dummy description for test article 3</description>
+      <pubDate>Tue, 05 Aug 2025 12:10:00 GMT</pubDate>
+    </item>
+
+  </channel>
+</rss>
