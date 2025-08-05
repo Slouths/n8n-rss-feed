@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+  <title><![CDATA[Health Study: Benefits of Virtual Reality Exercise Programs - 2025-08-05 18:59]]></title>
+  <link>https://pioneerspost.mock/article-1754420367</link>
+  <guid isPermaLink="true">https://pioneerspost.mock/article-1754420367</guid>
+  <pubDate>Tue, 05 Aug 2025 18:59:27 GMT</pubDate>
+  <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Tue Aug  5 18:59:27 UTC 2025.]]></description>
+</item>
+    <item>
   <title><![CDATA[Breaking: Scientists Discover New Species of Digital Butterfly - 2025-08-05 18:46]]></title>
   <link>https://newshub.demo/article-1754419618</link>
   <guid isPermaLink="true">https://newshub.demo/article-1754419618</guid>
@@ -67,12 +74,6 @@
   <link>https://example.com/test-article-4</link>
   <description>Dummy description for test article 4</description>
   <pubDate>Tue, 05 Aug 2025 17:41:49 GMT</pubDate>
-</item>
-<item>
-  <title>Test Article 5</title>
-  <link>https://example.com/test-article-5</link>
-  <description>Dummy description for test article 5</description>
-  <pubDate>Tue, 05 Aug 2025 17:47:57 GMT</pubDate>
 </item>
   </channel>
 </rss>
