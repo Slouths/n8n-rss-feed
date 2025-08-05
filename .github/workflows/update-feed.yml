@@ -3,7 +3,7 @@ name: Update RSS Feed
 on:
   workflow_dispatch:  # Manual trigger
   schedule:
-    - cron: "*/1 * * * *"  # Every minute (for testing)
+    - cron: "*/2 * * * *"  # Every 2 minutes
 
 permissions:
   contents: write  # Needed to push changes to the repo
