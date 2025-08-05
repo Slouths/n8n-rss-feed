@@ -1,27 +1,74 @@
 name: Update RSS Feed
+
 on:
-  schedule:
-    - cron: "*/5 * * * *" # every 5 minutes
+  workflow_dispatch:    # allows manual trigger
+  push:
+    paths:
+      - "new-article.txt" # triggers when you push a new article file
+
 jobs:
   update-feed:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write     # allows pushing changes
+
     steps:
+      # 1. Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # 2. Set up Git
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "action@github.com"
+
+      # 3. Ensure rss.xml exists
+      - name: Ensure rss.xml exists
+        run: |
+          if [ ! -f rss.xml ]; then
+            cat <<EOF > rss.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>n8n Test Feed</title>
+    <link>https://slouths.github.io/n8n-rss-feed/</link>
+    <description>Testing RSS automation for n8n</description>
+  </channel>
+</rss>
+EOF
+          fi
+
+      # 4. Add new article at top
       - name: Add new article
         run: |
-          timestamp=$(date -u +"%a, %d %b %Y %H:%M:%S GMT")
-          count=$(grep -o "<item>" rss.xml | wc -l)
-          new_id=$((count + 1))
+          TITLE=$(date +"Test Article %Y-%m-%d %H:%M:%S")
+          LINK="https://example.com/article-$(date +%s)"
+          PUBDATE=$(date -u +"%a, %d %b %Y %H:%M:%S GMT")
 
-          sed -i "/<\/channel>/i \
-          <item>\n  <title>Test Article $new_id</title>\n  <link>https://example.com/test-article-$new_id</link>\n  <description>Dummy description for test article $new_id</description>\n  <pubDate>$timestamp</pubDate>\n</item>" rss.xml
+          # Build item
+          NEW_ITEM="<item>
+    <title>$TITLE</title>
+    <link>$LINK</link>
+    <guid>$LINK</guid>
+    <pubDate>$PUBDATE</pubDate>
+  </item>"
 
+          # Insert new item after <channel> and remove extra old ones (keep 10 items)
+          awk -v newItem="$NEW_ITEM" '
+            /<channel>/ {print; print newItem; next}
+            /<\/channel>/ {next}
+            {print}
+          ' rss.xml | awk '
+            BEGIN {itemCount=0}
+            /<item>/ {itemCount++}
+            {print}
+            /<\/item>/ && itemCount>=10 {exit}
+          END {print "</channel>\n</rss>"}' > rss.tmp && mv rss.tmp rss.xml
+
+      # 5. Commit and push
       - name: Commit and push changes
         run: |
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"
           git add rss.xml
-          git commit -m "Add Test Article $new_id"
+          git commit -m "Update RSS feed with new article"
           git push
