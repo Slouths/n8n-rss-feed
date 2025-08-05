@@ -1,29 +1,29 @@
 name: Update RSS Feed
 
 on:
-  workflow_dispatch:    # allows manual trigger
-  push:
-    paths:
-      - "new-article.txt" # triggers when you push a new article file
+  workflow_dispatch:   # Manual trigger
+  schedule:
+    - cron: "*/5 * * * *"   # Every 5 minutes (for testing)
+
+permissions:
+  contents: write   # Needed to push changes to the repo
 
 jobs:
   update-feed:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write     # allows pushing changes
 
     steps:
-      # 1. Checkout repo
+      # 1. Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2. Set up Git
+      # 2. Configure Git for commit
       - name: Configure Git
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "action@github.com"
+          git config user.name "GitHub Actions"
+          git config user.email "action@github.com"
 
-      # 3. Ensure rss.xml exists
+      # 3. Ensure rss.xml exists (create if missing)
       - name: Ensure rss.xml exists
         run: |
           if [ ! -f rss.xml ]; then
@@ -39,14 +39,13 @@ jobs:
 EOF
           fi
 
-      # 4. Add new article at top
+      # 4. Add new article to feed
       - name: Add new article
         run: |
-          TITLE=$(date +"Test Article %Y-%m-%d %H:%M:%S")
+          TITLE="Test Article $(date +'%Y-%m-%d %H:%M:%S')"
           LINK="https://example.com/article-$(date +%s)"
-          PUBDATE=$(date -u +"%a, %d %b %Y %H:%M:%S GMT")
+          PUBDATE="$(date -u +'%a, %d %b %Y %H:%M:%S GMT')"
 
-          # Build item
           NEW_ITEM="<item>
     <title>$TITLE</title>
     <link>$LINK</link>
@@ -54,7 +53,7 @@ EOF
     <pubDate>$PUBDATE</pubDate>
   </item>"
 
-          # Insert new item after <channel> and remove extra old ones (keep 10 items)
+          # Insert new item right after <channel> and keep only 10 items
           awk -v newItem="$NEW_ITEM" '
             /<channel>/ {print; print newItem; next}
             /<\/channel>/ {next}
@@ -66,9 +65,9 @@ EOF
             /<\/item>/ && itemCount>=10 {exit}
           END {print "</channel>\n</rss>"}' > rss.tmp && mv rss.tmp rss.xml
 
-      # 5. Commit and push
-      - name: Commit and push changes
+      # 5. Commit and push changes
+      - name: Commit and push
         run: |
           git add rss.xml
-          git commit -m "Update RSS feed with new article"
+          git commit -m "Update RSS feed with new article" || echo "No changes to commit"
           git push
