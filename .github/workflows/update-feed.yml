@@ -1,0 +1,27 @@
+name: Update RSS Feed
+on:
+  schedule:
+    - cron: "*/5 * * * *" # every 5 minutes
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Add new article
+        run: |
+          timestamp=$(date -u +"%a, %d %b %Y %H:%M:%S GMT")
+          count=$(grep -o "<item>" rss.xml | wc -l)
+          new_id=$((count + 1))
+
+          sed -i "/<\/channel>/i \
+          <item>\n  <title>Test Article $new_id</title>\n  <link>https://example.com/test-article-$new_id</link>\n  <description>Dummy description for test article $new_id</description>\n  <pubDate>$timestamp</pubDate>\n</item>" rss.xml
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add rss.xml
+          git commit -m "Add Test Article $new_id"
+          git push
