@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+  <title><![CDATA[Transportation Update: Flying Cars Begin Beta Testing in Major Cities - 2025-08-06 00:00]]></title>
+  <link>https://techinsider.example/article-1754438408</link>
+  <guid isPermaLink="true">https://techinsider.example/article-1754438408</guid>
+  <pubDate>Wed, 06 Aug 2025 00:00:08 GMT</pubDate>
+  <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Wed Aug  6 00:00:08 UTC 2025.]]></description>
+</item>
+    <item>
   <title><![CDATA[Global Markets React to Unexpected Cryptocurrency Discovery - 2025-08-05 23:54]]></title>
   <link>https://sciencetoday.test/article-1754438046</link>
   <guid isPermaLink="true">https://sciencetoday.test/article-1754438046</guid>
@@ -63,13 +70,6 @@
   <guid isPermaLink="true">https://futurenews.mock/article-1754433802</guid>
   <pubDate>Tue, 05 Aug 2025 22:43:22 GMT</pubDate>
   <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Tue Aug  5 22:43:22 UTC 2025.]]></description>
-</item>
-    <item>
-  <title><![CDATA[Transportation Update: Flying Cars Begin Beta Testing in Major Cities - 2025-08-05 22:32]]></title>
-  <link>https://nextgenupdate.example/article-1754433155</link>
-  <guid isPermaLink="true">https://nextgenupdate.example/article-1754433155</guid>
-  <pubDate>Tue, 05 Aug 2025 22:32:35 GMT</pubDate>
-  <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Tue Aug  5 22:32:35 UTC 2025.]]></description>
 </item>
   </channel>
 </rss>
