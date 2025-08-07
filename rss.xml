@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+  <title><![CDATA[Space Exploration: Mars Colony Welcomes First Digital Tourists - 2025-08-07 04:14]]></title>
+  <link>https://newshub.demo/article-1754540070</link>
+  <guid isPermaLink="true">https://newshub.demo/article-1754540070</guid>
+  <pubDate>Thu, 07 Aug 2025 04:14:30 GMT</pubDate>
+  <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Thu Aug  7 04:14:30 UTC 2025.]]></description>
+</item>
+    <item>
   <title><![CDATA[Medical Breakthrough: Gene Therapy Reverses Aging Process - 2025-08-07 03:51]]></title>
   <link>https://techinsider.example/article-1754538697</link>
   <guid isPermaLink="true">https://techinsider.example/article-1754538697</guid>
@@ -63,13 +70,6 @@
   <guid isPermaLink="true">https://newshub.demo/article-1754524021</guid>
   <pubDate>Wed, 06 Aug 2025 23:47:01 GMT</pubDate>
   <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Wed Aug  6 23:47:01 UTC 2025.]]></description>
-</item>
-    <item>
-  <title><![CDATA[Space Exploration: Mars Colony Welcomes First Digital Tourists - 2025-08-06 23:39]]></title>
-  <link>https://pioneerspost.mock/article-1754523544</link>
-  <guid isPermaLink="true">https://pioneerspost.mock/article-1754523544</guid>
-  <pubDate>Wed, 06 Aug 2025 23:39:04 GMT</pubDate>
-  <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Wed Aug  6 23:39:04 UTC 2025.]]></description>
 </item>
   </channel>
 </rss>
