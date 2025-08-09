@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+  <title><![CDATA[Climate Change: New Solar Panel Technology Shows 200% Efficiency - 2025-08-09 23:45]]></title>
+  <link>https://techinsider.example/article-1754783154</link>
+  <guid isPermaLink="true">https://techinsider.example/article-1754783154</guid>
+  <pubDate>Sat, 09 Aug 2025 23:45:54 GMT</pubDate>
+  <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Sat Aug  9 23:45:54 UTC 2025.]]></description>
+</item>
+    <item>
   <title><![CDATA[Climate Change: New Solar Panel Technology Shows 200% Efficiency - 2025-08-09 23:38]]></title>
   <link>https://breakthroughnews.demo/article-1754782731</link>
   <guid isPermaLink="true">https://breakthroughnews.demo/article-1754782731</guid>
@@ -63,13 +70,6 @@
   <guid isPermaLink="true">https://sciencetoday.test/article-1754778726</guid>
   <pubDate>Sat, 09 Aug 2025 22:32:06 GMT</pubDate>
   <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Sat Aug  9 22:32:06 UTC 2025.]]></description>
-</item>
-    <item>
-  <title><![CDATA[Global Markets React to Unexpected Cryptocurrency Discovery - 2025-08-09 22:20]]></title>
-  <link>https://nextgenupdate.example/article-1754778031</link>
-  <guid isPermaLink="true">https://nextgenupdate.example/article-1754778031</guid>
-  <pubDate>Sat, 09 Aug 2025 22:20:31 GMT</pubDate>
-  <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Sat Aug  9 22:20:31 UTC 2025.]]></description>
 </item>
   </channel>
 </rss>
