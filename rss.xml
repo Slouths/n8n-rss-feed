@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+  <title><![CDATA[Transportation Update: Flying Cars Begin Beta Testing in Major Cities - 2025-08-09 23:10]]></title>
+  <link>https://techinsider.example/article-1754781024</link>
+  <guid isPermaLink="true">https://techinsider.example/article-1754781024</guid>
+  <pubDate>Sat, 09 Aug 2025 23:10:24 GMT</pubDate>
+  <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Sat Aug  9 23:10:24 UTC 2025.]]></description>
+</item>
+    <item>
   <title><![CDATA[Breaking: Scientists Discover New Species of Digital Butterfly - 2025-08-09 23:01]]></title>
   <link>https://techinsider.example/article-1754780488</link>
   <guid isPermaLink="true">https://techinsider.example/article-1754780488</guid>
@@ -63,13 +70,6 @@
   <guid isPermaLink="true">https://newshub.demo/article-1754776477</guid>
   <pubDate>Sat, 09 Aug 2025 21:54:37 GMT</pubDate>
   <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Sat Aug  9 21:54:37 UTC 2025.]]></description>
-</item>
-    <item>
-  <title><![CDATA[Medical Breakthrough: Gene Therapy Reverses Aging Process - 2025-08-09 21:48]]></title>
-  <link>https://breakthroughnews.demo/article-1754776103</link>
-  <guid isPermaLink="true">https://breakthroughnews.demo/article-1754776103</guid>
-  <pubDate>Sat, 09 Aug 2025 21:48:23 GMT</pubDate>
-  <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Sat Aug  9 21:48:23 UTC 2025.]]></description>
 </item>
   </channel>
 </rss>
