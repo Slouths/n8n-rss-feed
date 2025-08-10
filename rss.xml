@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+  <title><![CDATA[Transportation Update: Flying Cars Begin Beta Testing in Major Cities - 2025-08-10 19:09]]></title>
+  <link>https://pioneerspost.mock/article-1754852987</link>
+  <guid isPermaLink="true">https://pioneerspost.mock/article-1754852987</guid>
+  <pubDate>Sun, 10 Aug 2025 19:09:47 GMT</pubDate>
+  <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Sun Aug 10 19:09:47 UTC 2025.]]></description>
+</item>
+    <item>
   <title><![CDATA[Transportation Update: Flying Cars Begin Beta Testing in Major Cities - 2025-08-10 19:01]]></title>
   <link>https://techinsider.example/article-1754852480</link>
   <guid isPermaLink="true">https://techinsider.example/article-1754852480</guid>
@@ -63,13 +70,6 @@
   <guid isPermaLink="true">https://newshub.demo/article-1754848003</guid>
   <pubDate>Sun, 10 Aug 2025 17:46:43 GMT</pubDate>
   <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Sun Aug 10 17:46:43 UTC 2025.]]></description>
-</item>
-    <item>
-  <title><![CDATA[Medical Breakthrough: Gene Therapy Reverses Aging Process - 2025-08-10 17:40]]></title>
-  <link>https://innovationreport.sample/article-1754847602</link>
-  <guid isPermaLink="true">https://innovationreport.sample/article-1754847602</guid>
-  <pubDate>Sun, 10 Aug 2025 17:40:02 GMT</pubDate>
-  <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Sun Aug 10 17:40:02 UTC 2025.]]></description>
 </item>
   </channel>
 </rss>
