@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+  <title><![CDATA[Entertainment News: Virtual Concerts Draw Millions of Avatars - 2025-08-10 14:36]]></title>
+  <link>https://techinsider.example/article-1754836594</link>
+  <guid isPermaLink="true">https://techinsider.example/article-1754836594</guid>
+  <pubDate>Sun, 10 Aug 2025 14:36:34 GMT</pubDate>
+  <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Sun Aug 10 14:36:34 UTC 2025.]]></description>
+</item>
+    <item>
   <title><![CDATA[Breaking: Scientists Discover New Species of Digital Butterfly - 2025-08-10 14:26]]></title>
   <link>https://sciencetoday.test/article-1754835993</link>
   <guid isPermaLink="true">https://sciencetoday.test/article-1754835993</guid>
@@ -63,13 +70,6 @@
   <guid isPermaLink="true">https://newshub.demo/article-1754831065</guid>
   <pubDate>Sun, 10 Aug 2025 13:04:25 GMT</pubDate>
   <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Sun Aug 10 13:04:25 UTC 2025.]]></description>
-</item>
-    <item>
-  <title><![CDATA[Breaking: Scientists Discover New Species of Digital Butterfly - 2025-08-10 12:47]]></title>
-  <link>https://breakthroughnews.demo/article-1754830061</link>
-  <guid isPermaLink="true">https://breakthroughnews.demo/article-1754830061</guid>
-  <pubDate>Sun, 10 Aug 2025 12:47:41 GMT</pubDate>
-  <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Sun Aug 10 12:47:41 UTC 2025.]]></description>
 </item>
   </channel>
 </rss>
