@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+  <title><![CDATA[Medical Breakthrough: Gene Therapy Reverses Aging Process - 2025-08-11 19:47]]></title>
+  <link>https://techinsider.example/article-1754941622</link>
+  <guid isPermaLink="true">https://techinsider.example/article-1754941622</guid>
+  <pubDate>Mon, 11 Aug 2025 19:47:02 GMT</pubDate>
+  <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Mon Aug 11 19:47:02 UTC 2025.]]></description>
+</item>
+    <item>
   <title><![CDATA[Space Exploration: Mars Colony Welcomes First Digital Tourists - 2025-08-11 19:40]]></title>
   <link>https://futurenews.mock/article-1754941242</link>
   <guid isPermaLink="true">https://futurenews.mock/article-1754941242</guid>
@@ -63,13 +70,6 @@
   <guid isPermaLink="true">https://pioneerspost.mock/article-1754936043</guid>
   <pubDate>Mon, 11 Aug 2025 18:14:03 GMT</pubDate>
   <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Mon Aug 11 18:14:03 UTC 2025.]]></description>
-</item>
-    <item>
-  <title><![CDATA[Space Exploration: Mars Colony Welcomes First Digital Tourists - 2025-08-11 18:03]]></title>
-  <link>https://futurenews.mock/article-1754935410</link>
-  <guid isPermaLink="true">https://futurenews.mock/article-1754935410</guid>
-  <pubDate>Mon, 11 Aug 2025 18:03:30 GMT</pubDate>
-  <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Mon Aug 11 18:03:30 UTC 2025.]]></description>
 </item>
   </channel>
 </rss>
