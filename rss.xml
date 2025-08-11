@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+  <title><![CDATA[Breaking: Scientists Discover New Species of Digital Butterfly - 2025-08-11 22:34]]></title>
+  <link>https://nextgenupdate.example/article-1754951661</link>
+  <guid isPermaLink="true">https://nextgenupdate.example/article-1754951661</guid>
+  <pubDate>Mon, 11 Aug 2025 22:34:21 GMT</pubDate>
+  <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Mon Aug 11 22:34:21 UTC 2025.]]></description>
+</item>
+    <item>
   <title><![CDATA[Medical Breakthrough: Gene Therapy Reverses Aging Process - 2025-08-11 22:23]]></title>
   <link>https://newshub.demo/article-1754951000</link>
   <guid isPermaLink="true">https://newshub.demo/article-1754951000</guid>
@@ -63,13 +70,6 @@
   <guid isPermaLink="true">https://futurenews.mock/article-1754947168</guid>
   <pubDate>Mon, 11 Aug 2025 21:19:28 GMT</pubDate>
   <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Mon Aug 11 21:19:28 UTC 2025.]]></description>
-</item>
-    <item>
-  <title><![CDATA[Transportation Update: Flying Cars Begin Beta Testing in Major Cities - 2025-08-11 21:09]]></title>
-  <link>https://digitalworld.fake/article-1754946545</link>
-  <guid isPermaLink="true">https://digitalworld.fake/article-1754946545</guid>
-  <pubDate>Mon, 11 Aug 2025 21:09:05 GMT</pubDate>
-  <description><![CDATA[This is an automatically generated test article for RSS feed automation. Published at Mon Aug 11 21:09:05 UTC 2025.]]></description>
 </item>
   </channel>
 </rss>
